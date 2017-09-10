@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="318px" height="102px" viewBox="0 0 318 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>HOval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="163" height="318"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOval" transform="translate(0.000000, -62.000000)">
+            <g id="Oval" transform="translate(159.000000, 82.171875) scale(1, -1) rotate(90.000000) translate(-159.000000, -82.171875) translate(77.261719, -76.828125)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <ellipse fill="#D8D8D8" fill-rule="evenodd" mask="url(#mask-2)" cx="-5.12578616" cy="159" rx="106.343044" ry="207.466797"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
