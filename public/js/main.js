@@ -2,6 +2,8 @@
 const carouselEl = document.getElementById("carousel");
 const carouselImages = carouselEl.querySelectorAll("div.slide");
 const homeCarousel = new Carousel(carouselEl, carouselImages);
+var player;
+const mq = window.matchMedia("(max-width: 600px)");
 
 homeCarousel.play();
 
@@ -21,16 +23,23 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
-var player;
+
 function onYouTubeIframeAPIReady() {
+    const playerHeight = mq.matches ? '400px' : '800px';
+
     player = new YT.Player('player', {
-        height: '800',
+        height: playerHeight,
         width: '100%',
         videoId: 'hHM3np-GKXc',
         events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
         }
+    });
+
+    mq.addEventListener("change", function(){
+        const newPlayerHeight = mq.matches ? 400 : 800;
+        player.getIframe().height = newPlayerHeight;
     });
 }
 
