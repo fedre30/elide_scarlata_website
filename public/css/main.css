@@ -54,6 +54,10 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
+.center-text {
+    text-align: center;
+}
+
 audio,
 canvas,
 iframe,
@@ -305,6 +309,14 @@ input[type=text], input[type=email], textarea {
 
 
 /* MEDIA */
+
+h2{
+    text-align: center;
+}
+
+audio{
+
+}
 
 .photos img{
     transition: transform 0.2s ease;

@@ -38,10 +38,12 @@
             <h2>Audio</h2>
         </div>
 
-        <div class="twelve columns">
+        <div class="twelve columns center-text">
             <audio controls="controls">
                 <source src="media/laudatedominum.opus" type="audio/ogg">
                 <source src="media/laudatedominum.mp3" type="audio/mp3">
+
+                <p>Your browser does not support HTML 5 audio.</p>
             </audio>
         </div>
     </div>
@@ -52,10 +54,13 @@
         <div class="twelve columns">
             <h2>Video</h2>
         </div>
-        
-        <div class="twelve columns">
-            <video width="320" height="240" controls>
-                <source src="" type="video/mp4">
+
+        <div class="twelve columns center-text">
+            <video width="100%" controls>
+                <!--<source src="media/elide.vp9" type="video/webm">-->
+                <source src="media/elide.vp8" type="video/webm">
+                <source src="media/elide.h264" type="video/mp4">
+                <p>Your browser does not support HTML 5 video.</p>
             </video>
         </div>
     </div>
