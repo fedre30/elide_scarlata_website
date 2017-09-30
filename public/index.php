@@ -13,7 +13,7 @@
         <div class="slide">
             <div class="background" style="background-image: url(img/Leslie_elide.jpg)"></div>
             <div class="oval">
-                <span>Lorem ipsum je sais pas quoi dire cordialement !</span>
+                <span>“Music is the shorthand of emotion.<br> Emotions which let themselves be described in words with such difficulty are directly conveyed<br> in music and in that it is its power and significance.” <br><br>Leo Tolstoj</span>
             </div>
         </div>
         <div class="slide">
@@ -25,7 +25,7 @@
         <div class="slide">
             <div class="background" style="background-image: url(img/instr1.JPG)"></div>
             <div class="oval">
-                <span>Lorem ipsum j'aime bien faire du vélo cordialement !</span>
+                <span>“Music touches our innermost being and in that way produces new life,<br>a life that gives exaltation to the whole being, raising it to that  perfection in which lies the fulfillment of man’s life.” <br><br>Hazrat Inayat Khan</span>
             </div>
         </div>
         <div class="slide">

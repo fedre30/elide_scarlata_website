@@ -224,6 +224,11 @@ label[for="hamburger-toggle"] {
 
 /* FOOTER */
 
+footer {
+    display: block;
+    width: 100%;
+}
+
 .logos{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -272,7 +277,7 @@ input[type=text], input[type=email], textarea {
 }
 
 
-input[type=submit] {
+#sendMail {
     background-color: #009989;
     color: white;
     padding: 12px 20px;
@@ -281,18 +286,34 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+#sendMail:hover {
     background-color: #14CEB8;
 }
+
+#sendMail:disabled{
+    display: none;
+}
+
+#status{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
 
 /* ABOUT */
 
 
 /* MEDIA */
 
+.photos img{
+    transition: transform 0.2s ease;
+    margin-bottom: 30px
+}
 
-/* HAMBURGER MENU */
-
+.photos img:hover{
+    transform: scale(1.05);
+}
 
 
 
@@ -767,9 +788,9 @@ input[type=submit]:hover {
         width: 50%;
         white-space: normal;
         margin: 350px 0 0 15%;
-        transform: translateY(-50%);
+        transform: translateY(-60%);
         font-family: 'Roboto Slab', serif;
-        font-size: 28px;
+        font-size: 18px;
         text-shadow: 2px 2px darkslategray;
         color: #FFFFFF;
         z-index: 2000;
