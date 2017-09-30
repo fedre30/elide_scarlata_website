@@ -8,7 +8,7 @@
 <body>
     <?php include("../src/20header.php") ?>
 
-    <! CAROUSEL -->
+    <!-- CAROUSEL -->
     <div class="carousel" id="carousel">
         <div class="slide">
             <div class="background" style="background-image: url(img/Leslie_elide.jpg)"></div>
@@ -39,8 +39,12 @@
         <div class="previous-btn"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
     </div>
 
-    <! YT PLAYER -->
+    <!-- YT PLAYER -->
     <div id="player"></div>
+
+    <?php include("../src/about.php") ?>
+    <?php include("../src/media.php") ?>
+    <?php include("../src/contacts.php") ?>
 
     <?php include("../src/30footer.php") ?>
     <?php include("../src/40scripts.php") ?>

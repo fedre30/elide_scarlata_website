@@ -1,13 +1,3 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-<head>
-    <?php include("../src/10head.php") ?>
-</head>
-
-<body>
-<?php include("../src/20header.php") ?>
-
 <div class="form">
     <form>
         <div class="name">
@@ -34,9 +24,5 @@
         <div id="status"></div>
     </form>
 </div>
-<?php include("../src/30footer.php") ?>
-<?php include("../src/40scripts.php") ?>
 
 <script src="js/contacts.js"></script>
-</body>
-</html>

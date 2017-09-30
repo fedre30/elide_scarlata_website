@@ -1,13 +1,3 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-<head>
-    <?php include("../src/10head.php") ?>
-</head>
-
-<body>
-<?php include("../src/20header.php") ?>
-
 <div class="container">
 
     <div class="row">
@@ -71,10 +61,4 @@
     <img class="modal-content" id="img01">
 </div>
 
-
-<?php include("../src/30footer.php") ?>
-<?php include("../src/40scripts.php") ?>
 <script src="js/medias.js"></script>
-
-</body>
-</html>
