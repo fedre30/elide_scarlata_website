@@ -1,19 +1,6 @@
 
-const carouselEl = document.getElementById("carousel");
-const carouselImages = carouselEl.querySelectorAll("div.slide");
-const homeCarousel = new Carousel(carouselEl, carouselImages);
 var player;
 const mq = window.matchMedia("(max-width: 600px)");
-
-homeCarousel.play();
-
-carouselEl.querySelector(".previous-btn").addEventListener("click", () => {
-    homeCarousel.previous();
-});
-
-carouselEl.querySelector(".next-btn").addEventListener("click", () => {
-    homeCarousel.next();
-});
 
 //YOUTUBE PLAYER
 var tag = document.createElement('script');
@@ -21,8 +8,6 @@ var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-
 
 function onYouTubeIframeAPIReady() {
     const playerHeight = mq.matches ? '400px' : '800px';
