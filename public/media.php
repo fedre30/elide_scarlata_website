@@ -39,6 +39,7 @@
         </div>
 
         <div class="twelve columns center-text">
+            <div class="label">Laudate Dominum - W.A. Mozart</div>
             <audio controls="controls">
                 <source src="media/laudatedominum.opus" type="audio/ogg">
                 <source src="media/laudatedominum.mp3" type="audio/mp3">
@@ -48,22 +49,6 @@
         </div>
     </div>
 
-
-
-    <div class="row">
-        <div class="twelve columns">
-            <h2>Video</h2>
-        </div>
-
-        <div class="twelve columns center-text">
-            <video width="100%" controls>
-                <!--<source src="media/elide.vp9" type="video/webm">-->
-                <source src="media/elide.vp8" type="video/webm">
-                <source src="media/elide.h264" type="video/mp4">
-                <p>Your browser does not support HTML 5 video.</p>
-            </video>
-        </div>
-    </div>
 </div>
 
 <div id="myModal" class="modal">

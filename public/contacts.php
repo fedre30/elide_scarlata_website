@@ -24,7 +24,7 @@
         </div>
         <div class="message">
             <label for="message">Message</label>
-            <textarea name="message" placeholder="Write something.." id="message"></textarea>
+            <textarea name="message" placeholder="Message" id="message"></textarea>
         </div>
 
         <div class="submit">

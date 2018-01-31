@@ -15,6 +15,7 @@ carouselEl.querySelector(".next-btn").addEventListener("click", () => {
     homeCarousel.next();
 });
 
+
 //YOUTUBE PLAYER
 var tag = document.createElement('script');
 

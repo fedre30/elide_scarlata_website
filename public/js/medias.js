@@ -18,3 +18,5 @@ let span = document.getElementsByClassName("closeButton") [0];
 span.onclick = function() {
     modal.style.display= "none";
 };
+
+

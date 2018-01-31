@@ -131,17 +131,17 @@ label[for="hamburger-toggle"] {
     font-size: 27px;
     color: #009989;
     letter-spacing: 0.84px;
-    text-shadow: 0 2px 4px rgba(20,206,184,0.37);
     list-style: none;
     border-bottom: 2px solid #009989;
     display: inline-block;
     text-decoration: none;
-    color: #009989;
-    text-shadow: 0 2px 4px rgba(20,206,184,0.37);
+
+
 }
 
 .row a:hover{
     color: #14CEB8;
+    border-bottom: 2px solid #14CEB8;
 }
 
 
@@ -153,7 +153,7 @@ label[for="hamburger-toggle"] {
     position: relative;
     margin-bottom: 150px;
     font-size: 0;
-    overflow-y: hidden;
+    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -197,7 +197,7 @@ label[for="hamburger-toggle"] {
     margin: 400px 0 0 15%;
     transform: translateY(-50%);
     font-family: 'Roboto Slab', serif;
-    font-size: 32px;
+    font-size: 1.5vw;
     text-shadow: 2px 2px darkslategray;
     color: #FFFFFF;
     z-index: 2000;
@@ -329,6 +329,7 @@ audio{
     transform: scale(1.05);
 }
 
+
 .modal {
     display: none;
     position: fixed;
@@ -386,6 +387,10 @@ audio{
     .modal-content {
         width: 100%;
     }
+}
+
+.label{
+    margin: 4vh 0;
 }
 
 
@@ -818,11 +823,10 @@ audio{
 
     .carousel {
         height: 80vh;
-        width: 100%;
+        width: 100vw;
         position: relative;
         margin-bottom: 150px;
         font-size: 0;
-        overflow-y: hidden;
         white-space: nowrap;
     }
 
@@ -899,4 +903,8 @@ audio{
 
 
 
+}
+
+.video{
+    width: 100vw;
 }
