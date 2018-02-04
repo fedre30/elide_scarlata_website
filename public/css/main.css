@@ -13,7 +13,7 @@
 html {
 
     /*font-size: 1em;*/
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.4;
 }
 
@@ -774,6 +774,8 @@ audio{
     .container-menu a{
         border-bottom: none;
         margin: 25px;
+
+
     }
 
     .container-menu .row div.column,
@@ -907,4 +909,9 @@ audio{
 
 .video{
     width: 100vw;
+}
+
+
+.about{
+    line-height: 1.7em;
 }

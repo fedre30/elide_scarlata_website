@@ -32,17 +32,11 @@ if($_GET['action'] == "mail"){
 
     $mail = new PHPMailer(true);
     try {
-        $mail->isSMTP();
-        $mail->Host = "smtp.gmail.com";
-        $mail->Port = 587;
-        $mail->Username = 'sendmail300695@gmail.com';
-        $mail->Password = 'supers3cret';
-        $mail->SMTPAuth = true;
-        $mail->SMTPSecure = 'tls';
+        //$mail->isSMTP();
         $mail->CharSet = 'utf-8';
         $mail->addReplyTo($data_back->{"email"});
         $mail->setFrom($data_back->{"email"});
-        $mail->addAddress('bidon.aurelien@gmail.com', 'Aurélien Bidon');
+        $mail->addAddress('elidescarlata@gmail.com', 'Elide Scarlata');
         $mail->Subject = "Email from elidescarlata.com";
         $mail->Body = $data_back->{"message"};
 
